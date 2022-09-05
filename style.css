@@ -1,0 +1,32 @@
+body {
+  font-size: 2rem;
+}
+button {
+  font-size: inherit;
+  border: none;
+  cursor: pointer;
+  min-width: 4rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.calculator {
+  display: inline-block;
+}
+.display {
+  min-height: 60px;
+  border-radius: 5px;
+  border: 2px solid rgb(218, 218, 218);
+  margin-bottom: 0.5rem;
+}
+.row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.operations button {
+  background-color: rgb(150, 178, 255);
+}
+.equal {
+  background-color: rgb(255, 246, 152);
+  margin-bottom: 0.5rem;
+}
